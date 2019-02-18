@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Reset defaults */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  background: url("../images/crossing-dark.png") no-repeat center center/cover;
+  grid-template-rows: 0.4fr 3.5fr 4fr 0.5fr;
+  
+}
+
+
+
+/* Navbar */
+
+#navbar {
+display: flex;
+/* position: sticky;
+top: 0; */
+justify-content: space-between;
+/* background: transparent; */
+padding: 1.5rem;
+color: white;
+text-align: center
+
+}
+
+#navbar ul {
+display: flex;
+align-items: center; 
+list-style: none;
+padding-top: 0.3rem;
+padding-right: 1.2rem;
+}
+
+#navbar ul li a{
+text-decoration: none;
+color: white;
+padding: 0 1rem;
+}
+
+#navbar ul li a:hover {
+  color: lightgray;
+}
+
+
+/* Main Section */
+
+main {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr 1.5fr;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+#contact {
+  margin-right: 0.3rem;
+  padding: 1.5rem;
+}
+
+#contact ul {
+  list-style: none;
+  /* padding-top: 3rem;  */
+}
+
+#contact ul li {
+  line-height: 4rem;
+}
+
+
+#line-icon {
+  height: 20px;
+  width: 20px;
+}
+
+
+#info {
+  padding: 1.5rem;
+  /* line-height: 0.75em; */
+
+}
+
+#info p {
+  margin: 0.8rem 0;
+  line-height: 1.3rem;
+}
+
+#img {
+  margin: 0 3rem 0 0.3rem;
+
+}
+
+#img h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#profile-img {
+  display: block;
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
